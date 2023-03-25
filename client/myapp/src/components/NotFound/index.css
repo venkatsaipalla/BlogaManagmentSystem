@@ -1,0 +1,16 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}
+.notFound{
+    color: white;
+    font-size:40px;
+    text-shadow: 5px black;
+    border: 2px solid white;
+    padding: 40px;
+}

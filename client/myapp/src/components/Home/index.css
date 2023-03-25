@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg {
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  overflow-x: hidden;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(243, 236, 227, 0.826);
+  width: 80%;
+  padding: 40px;
+  height: auto;
+  backdrop-filter: blur(5px);
+}
+.heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 30px;
+  color: #df5211;
+}
+.listContainer {
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addNewBlogContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8542;
+}
+.titleInputTag {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+::placeholder {
+  font-size: 22px;
+}
+.inputTagCss {
+  font-size: 24px;
+}
+input[type="text"]:focus {
+  background-color: #e0ddd3;
+}
+.popup-content {
+  border-radius: 8px;
+}
