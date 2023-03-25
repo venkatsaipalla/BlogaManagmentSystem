@@ -77,7 +77,7 @@ class Home extends Component {
   onClickLogout = () => {
     Cookies.remove("jwt_token");
     const { history } = this.props;
-    history.replace("/login");
+    history.push("/login");
   };
 
   addBlog = () => {
